@@ -16,11 +16,8 @@ jobs:
         - name: Install all Dependency
           run: npm install
 
-        - name: Install  yarn packages
-          run: npm install --global yarn
-           
-        - name: Image Optimization 
-          run: yarn add sharp
+        - name: build project
+          run: npm run build
 
         
 
